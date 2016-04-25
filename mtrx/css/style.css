@@ -268,22 +268,53 @@
 .circle{
 	border-radius: 50%;
 	margin: 0.15em;
-	font-size: 3em;
-	}	
+	font-size:2em;
+	}
 .fa-twitter{
 	background: #4099FF;
 	color: #FFFFFF;
-  padding: 0.05em 0.07em;
+  padding: 0.05m 0.5em;
 	}
 .fa-facebook{
 	background: #3B5998;
 	color: #FFFFFF;
-  padding: 0.05em 0.3em;
+  padding: 0.05em 0.25em;
 	}
 
 .fa-youtube{
 	background: #bb0000;
 	color: #FFFFFF;
-  padding: 0.25em 0.25em;
-  
+  padding: 0.05em 0.25em;  
 	}
+.numberCircle {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    padding: 30px;
+    background: orange;
+    border: 2px solid orange;
+    color: whitesmoke;
+    text-align: center;
+    font: 32px Arial, sans-serif;
+    margin-left: 20px;
+    
+}
+.numberCircle2 {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    padding: 30px;
+    background: #FF4500 ;
+    border: 2px solid #FF4500;
+    color: whitesmoke;
+    text-align: center;
+    font: 32px Arial, sans-serif;
+    margin-left: 20px;
+    
+}
+.course h3{
+    color: orange;
+}
+.other{
+    align-content: center;
+}
