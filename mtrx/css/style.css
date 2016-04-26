@@ -14,7 +14,7 @@
 	color: white;
 }
 .nav-cmc{
-	background-color: transparent !important;
+	background-color: transparent #008e44;
 	border:none !important;
 }
 .divider-cmc{
@@ -322,3 +322,26 @@
 .social-icons .fa-twitter{
     background-color:#32CCFE;
 } 
+.block{
+    background-color: #E2E2E2;
+    margin: 10px;
+}
+.block hr{
+    
+}
+.block p{
+    background-color: blue;
+    color: white;
+    font-size: 22px;
+    text-align: center;
+    min-height: 100px;
+    padding-top: 30px;
+    padding: 20px;
+    font-weight: 600;
+}
+hr {
+    border: none;
+    height: 2px;
+    color: blue; /* old IE */
+    background-color: blue; /* Modern Browsers */
+}
