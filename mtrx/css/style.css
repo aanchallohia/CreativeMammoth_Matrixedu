@@ -325,9 +325,8 @@
 .block{
     background-color: #E2E2E2;
     margin: 10px;
-}
-.block hr{
-    
+    border-radius: 4px;
+    padding-top: 10px;
 }
 .block p{
     background-color: blue;
@@ -338,10 +337,25 @@
     padding-top: 30px;
     padding: 20px;
     font-weight: 600;
+    border-radius: 4px;
 }
 hr {
-    border: none;
     height: 2px;
     color: blue; /* old IE */
     background-color: blue; /* Modern Browsers */
+    border-radius: 4px:
+}
+.cat{
+    margin-top: 60px;
+}
+.cat li{
+    background-color: orange;
+    padding: 10px;
+    margin: 10px;
+    color: white;
+    font-weight: 700;
+    border-radius: 10px;
+}
+.badge-col{
+    background-color: #FF4500;
 }
