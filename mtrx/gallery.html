@@ -12,7 +12,7 @@
 </head>
 <body>
 <!--nav bar starts-->
-<nav class="navbar navbar-inverse nav-2-cmc" style="z-index: 1;">
+<nav class="navbar navbar-inverse nav-cmc" style="z-index: 1;">
   <div class="container-fluid">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -28,27 +28,27 @@
         <li class="dropdown">
           <a class="dropdown-toggle"  data-toggle="dropdown" href="#">WHY MATRIX? <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a style=" color: black !important;" href="#">Best Results for JEE</a></li>
-            <li><a style=" color: black !important;" href="#">Best Faculty Team</a></li>
-            <li><a style=" color: black !important;" href="#">Best Teaching methodology</a></li>
-            <li><a style=" color: black !important;" href="#">Exclusive Focused on JEE</a></li>
-            <li><a style=" color: black !important;" href="#">Away from Crowds</a></li>
-            <li><a style=" color: black !important;" href="#">Testimonials</a></li>
+            <li><a style=" color: black !important;" href="jee-results.html">Best Results for JEE</a></li>
+            <li><a style=" color: black !important;" href="faculty.html">Best Faculty Team</a></li>
+            <li><a style=" color: black !important;" href="admissions.html">Best Teaching methodology</a></li>
+            <li><a style=" color: black !important;" href="admissions.html">Exclusive Focused on JEE</a></li>
+            <li><a style=" color: black !important;" href="admissions.html">Away from Crowds</a></li>
+            <li><a style=" color: black !important;" href="testimonials.html">Testimonials</a></li>
           </ul>
         </li>
         <li class="dropdown">
           <a class="dropdown-toggle" data-toggle="dropdown" href="#">COURSES <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a style=" color: black !important;" href="#">MOMUNTUM</a></li>
-            <li><a style=" color: black !important;" href="#">IMPULSE</a></li>
-            <li><a style=" color: black !important;" href="#">AGILE</a></li>
+            <li><a style=" color: black !important;" href="momentum.html">MOMUNTUM</a></li>
+            <li><a style=" color: black !important;" href="impulse.html">IMPULSE</a></li>
+            <li><a style=" color: black !important;" href="agile.html">AGILE</a></li>
           </ul>
         </li>
         <li><a href="#">PAST RESULTS</a></li>
         <li><a href="faculty.html">FACULTY</a></li>
         <li><a href="#">COURSES</a></li>
         <li><a href="#">MISC.</a></li>
-        <li><a href="#">CONTACT</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
         <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
       </ul>
     </div>
@@ -66,10 +66,10 @@
 		<div class="col-md-4 col-sm-5 col-xs-6"><img id="img0" class="img-responsive img-thumbnail" src="./img/DSC_0293.jpg"/></div> 
         <div class="col-md-4 col-sm-5 col-xs-6"><img id="img1" class="img-responsive img-thumbnail" src="./img/DSC_0387.jpg"/></div>
         <div class="col-md-4 col-sm-5 col-xs-6"><img id="img2" class="img-responsive img-thumbnail" src="./img/DSC_0390.jpg"/></div>  
-        <div class="col-md-4 col-sm-5 col-xs-6"><img id="img4" class="img-responsive img-thumbnail" src="./img/DSC_0398.jpg"/></div>
-        <div class="col-md-4 col-sm-5 col-xs-6"><img id="img5" class="img-responsive img-thumbnail" src="./img/DSC_0402.jpg"/></div>
-        <div class="col-md-4 col-sm-5 col-xs-6"><img id="img6" class="img-responsive img-thumbnail" src="./img/DSC_0434.jpg"/></div>
-        <div class="col-md-4 col-sm-5 col-xs-6"><img id="img7" class="img-responsive img-thumbnail" src="./img/IMG_0157.jpg"/></div>
+        <div class="col-md-4 col-sm-5 col-xs-6"><img id="img3" class="img-responsive img-thumbnail" src="./img/DSC_0398.jpg"/></div>
+        <div class="col-md-4 col-sm-5 col-xs-6"><img id="img4" class="img-responsive img-thumbnail" src="./img/DSC_0402.jpg"/></div>
+        <div class="col-md-4 col-sm-5 col-xs-6"><img id="img5" class="img-responsive img-thumbnail" src="./img/DSC_0434.jpg"/></div>
+        <div class="col-md-4 col-sm-5 col-xs-6"><img id="img6" class="img-responsive img-thumbnail" src="./img/IMG_0157.jpg"/></div>
         <div class="col-md-4 col-sm-5 col-xs-6"><img id="img7" class="img-responsive img-thumbnail" src="./img/IMG_0162.jpg"/></div>
     </div>
 </div>
@@ -91,7 +91,7 @@
 
 <!--footer starts-->
 <section>
-  <div class="col-lg-12 text-center" style="background-color: blue;padding-top: 20px;color: white;">
+  <div class="col-lg-12 text-center foot">
     <div class="col-lg-4">
       <div class="col-lg-12"></div>
       <p><b>About Us</b><br><br>
@@ -133,6 +133,40 @@ Team Matrix</p>
   <div class="col-lg-12"></div>
 </section>
 <!--footer ends-->
+    <script>
+         $("#img0").on("click", function() {
+   $('#imagepreview').attr('src', $('#img0').attr('src')); 
+   $('#imageModal').modal('show'); 
+});
+    $("#img1").on("click", function() {
+   $('#imagepreview').attr('src', $('#img1').attr('src')); 
+   $('#imageModal').modal('show'); 
+});
+    $("#img2").on("click", function() {
+   $('#imagepreview').attr('src', $('#img2').attr('src')); 
+   $('#imageModal').modal('show'); 
+});
+    $("#img3").on("click", function() {
+   $('#imagepreview').attr('src', $('#img3').attr('src')); 
+   $('#imageModal').modal('show'); 
+});
+    $("#img4").on("click", function() {
+   $('#imagepreview').attr('src', $('#img4').attr('src')); 
+   $('#imageModal').modal('show'); 
+});
+    $("#img5").on("click", function() {
+   $('#imagepreview').attr('src', $('#img5').attr('src')); 
+   $('#imageModal').modal('show'); 
+});
+        $("#img6").on("click", function() {
+   $('#imagepreview').attr('src', $('#img6').attr('src')); 
+   $('#imageModal').modal('show'); 
+});
+        $("#img7").on("click", function() {
+   $('#imagepreview').attr('src', $('#img7').attr('src')); 
+   $('#imageModal').modal('show'); 
+});
+    </script>
 </body>
 
 </html>

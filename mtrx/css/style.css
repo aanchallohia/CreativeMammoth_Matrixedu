@@ -204,7 +204,7 @@
     height: 30px;
 }
 .nav-2-cmc{
-		background-color: blue !important;
+		background-color: black! important;
 	border:none !important;
 	border-radius: 0px !important;
 }
@@ -358,4 +358,8 @@ hr {
 }
 .badge-col{
     background-color: #FF4500;
+}
+.foot{
+    background-color: black;
+    padding-top: 20px;color: white;
 }
